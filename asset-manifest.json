@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dmtoquica/proyectoIW.git/static/css/main.c6b26745.css",
-    "main.js": "/dmtoquica/proyectoIW.git/static/js/main.efb245e1.js",
-    "static/js/453.8ab44547.chunk.js": "/dmtoquica/proyectoIW.git/static/js/453.8ab44547.chunk.js",
-    "index.html": "/dmtoquica/proyectoIW.git/index.html",
-    "main.c6b26745.css.map": "/dmtoquica/proyectoIW.git/static/css/main.c6b26745.css.map",
-    "main.efb245e1.js.map": "/dmtoquica/proyectoIW.git/static/js/main.efb245e1.js.map",
-    "453.8ab44547.chunk.js.map": "/dmtoquica/proyectoIW.git/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/proyectoIW%20%20/static/css/main.c6b26745.css",
+    "main.js": "/proyectoIW%20%20/static/js/main.80375932.js",
+    "static/js/453.8ab44547.chunk.js": "/proyectoIW%20%20/static/js/453.8ab44547.chunk.js",
+    "index.html": "/proyectoIW%20%20/index.html",
+    "main.c6b26745.css.map": "/proyectoIW%20%20/static/css/main.c6b26745.css.map",
+    "main.80375932.js.map": "/proyectoIW%20%20/static/js/main.80375932.js.map",
+    "453.8ab44547.chunk.js.map": "/proyectoIW%20%20/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6b26745.css",
-    "static/js/main.efb245e1.js"
+    "static/js/main.80375932.js"
   ]
 }
