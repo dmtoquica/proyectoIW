@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Login POST</title>
+</head>
+<body>
+    <h2>Prueba de Solicitud POST a /auth/login</h2>
+    <button onclick="login()">Enviar solicitud de login</button>
+
+    <script>
+        async function login() {
+            try {
+                const response = await fetch('http://localhost:3000/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ username: 'user', password: 'pass' })
+                });
+                const data = await response.text();
+                alert(data); // Muestra la respuesta del servidor
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error al realizar la solicitud');
+            }
+        }
+    </script>
+</body>
+</html>
